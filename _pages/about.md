@@ -1,56 +1,61 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+# About Me
+Hi there :hugs:
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I'm Joy Chang, a senior at UC Santa Barbara, studying Statistics and Data Science & Applied Math. I am passionate about using data science and machine learning to predict trends, drive meaningful business decisions, and tackle community/global challenges. 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+# Skills 
+## :woman_technologist: Programming Languages
+Python                |         SQL          |           R          |                   SAS
+:--------------------:|:--------------------:|:--------------------:|:---------------------:
+<img src="https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png" width="50">  |  <img src="https://cdn.iconscout.com/icon/free/png-512/free-sqlite-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-6-pack-icons-282687.png?f=webp&w=512" width="80">  |  <img src="https://icon.icepanel.io/Technology/svg/RStudio.svg" width="50">  |  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png?20090216100742" width="50">
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## :robot: Machine Learning & Deep Learning
+Python (e.g., NumPy, Pandas, Matplotlib, Seaborn, Keras, Scikit-learn), Ensemble Methods, Clustering, Neural Networks, Natural Language Processing, Large Language Models, Computer Vision
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## :hammer_and_wrench: Other Technologies
+Git, LaTeX, Power BI, Flask, SQLite, Deployment (AWS), Data Science Workflow (preparation, visualization, modeling, evaluation), Front-End Design
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## :infinity: Statistics and Math
+Probability, Statistics, Regression, Stochastic Process, Time Series <br/> 
+Calculus, Linear Algebra, Differential Equations, Numerical Analysis, Real Analysis
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+# Data Science Projects
+## :credit_card: Sensitive Data Discovery Project with American Express 
+* Developed a sensitive data discovery model to identify and redact personally identifiable information and contextual data from large-scale text, ensuring data privacy and protection of individual identities; achieved 95% redaction accuracy
+* Tech Stack: NER, BERT
+* [Github](https://github.com/Amex2B/AmexSensitiveData)
 
-**Markdown generator**
+## :potted_plant: SPROUT: Plant Disease Detection & Care Assistant
+* Developed SPROUT, an AI-powered plant health [web app](https://plant-app-129345399998.us-central1.run.app/) using Flask, SQLite, and Flask-Login; integrated a ConvNext (PyTorch) model for disease detection (97.5% accuracy) and a RAG-based chatbot with ChromaDB and DeepSeek API; deployed to a live server for public access
+* Tech Stack: Flask, SQLite, PyTorch, ConvNext
+* [Github](https://github.com/asent1234/PlantProject)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## :dollar: Stock Portfolio Recommendation System for Gen Z 
+* Enabled Gen Z investors to combine their views about the performance of stocks with the market equilibrium that results in intuitive, diversified portfolios
+* Tech Stack: Black-Litterman, KNN, K-Means, LSTM
+* [Github](https://github.com/DS-Brownion/guidelight)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## :chart_with_upwards_trend: Predictive Modeling of Freedom in Life Choice
+* Predict the trend of the freedom to make life choices and the factors that influence it using the World Happiness Report dataset, achieving an R² score of 0.88 and an RMSE of 0.08
+* Tech Stack: KNN, One Hot Encoding, hyperparameter tuning
+* [GitHub](https://github.com/JoyChang10/career_JC/blob/a8617a488550c3fdb38d86f7561f6069aa346352/ML%20Capstone%20Project/WHR_analysis.ipynb)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## :stethoscope: Statistical Analysis of Risk Factors for Cervical Cancer
+* Identify and examine risk factors for cervical cancer and publish the findings in a [paper](https://github.com/JoyChang10/resume/blob/41c79b9017daddae69f650d2a681647281e5de56/Statistical%20Analysis%20on%20Relationship%20between%20HPV%20infection%20and%20Risk%20Factors.pdf)
+* Designed a health education [website](https://joychang.wixsite.com/hpvcervicalcancer) to raise awareness on cervical cancer screening, HPV DNA testing, and HPV vaccines
+* Tech Stack: logistic regression, multi-linear regression
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+# Math Projects
+## :earth_americas: Modeling and Simulation with PDEs at Texas A&M
+* Studied mathematical modeling with partial differential equations (PDEs), such as parabolic PDEs and wave equations, and the numerical methods for approximating PDEs such as the finite difference method
+* Solved geometric differential equations using the finite element method
+* [Presentation](https://github.com/JoyChang10/resume/blob/d37745ed1adb83ea22fa0cba1d77dbe27449b30b/Geometric_Differential_Equations.pdf)
+  
+## :knot: Directed Reading Program at UC Santa Barbara
+* Studying knot theory through The Knot Book and relevant exercises
+* Designed a [poster](https://github.com/JoyChang10/resume/blob/a390be4a5296e6f2e267452c9127f116870ccd81/DRP%20Poster%20-%20Joy%20%26%20Mizuki.pdf) using LaTeX on knot theory, focusing on Reidemeister moves, planar graphs, and the applications of planar graphs in statistical mechanics
+  
+<a href="mailto:jiaruichang10@gmail.com">
+  <img align="left" alt="Joy's email" width="22px" src="https://github.com/user-attachments/assets/959cca00-b6f4-4c36-bd10-3e36984200bd" />
