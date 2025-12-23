@@ -26,7 +26,10 @@ author:
   avatar           : "profile.png"
   name             : "Joy Chang"
   pronouns         : "she/her"  
-  bio              : "Hi there 🤗 I'm Joy Chang, a senior at UC Santa Barbara, studying Statistics and Data Science & Applied Math. I am passionate about using data science and machine learning to predict trends, drive meaningful business decisions, and tackle community/global challenges."
+  bio: |
+    <strong>Contact:</strong> <a href="mailto:jiaruichang10@gmail.com">jiaruichang10 [at] gmail.com</a>
+    <br>
+    <strong>GitHub:</strong> <a href="https://github.com/JoyChang10">JoyChang10</a>
   location         : "Santa Barbara, CA"
   university       : "UC Santa Barbara"
   uri              : # URL
