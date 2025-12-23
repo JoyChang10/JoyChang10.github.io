@@ -56,6 +56,3 @@ Calculus, Linear Algebra, Differential Equations, Numerical Analysis, Real Analy
 ## :knot: Directed Reading Program at UC Santa Barbara
 * Studying knot theory through The Knot Book and relevant exercises
 * Designed a [poster](https://github.com/JoyChang10/resume/blob/a390be4a5296e6f2e267452c9127f116870ccd81/DRP%20Poster%20-%20Joy%20%26%20Mizuki.pdf) using LaTeX on knot theory, focusing on Reidemeister moves, planar graphs, and the applications of planar graphs in statistical mechanics
-  
-<a href="mailto:jiaruichang10@gmail.com">
-  <img align="left" alt="Joy's email" width="22px" src="https://github.com/user-attachments/assets/959cca00-b6f4-4c36-bd10-3e36984200bd" />
